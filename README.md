@@ -22,12 +22,12 @@ Mini-projet du module **Architecture Web Distribuée (AWD)** – 2026/2027.
 
 | Membre | Microservice |
 |---|---|
-| Nom Prénom 1 | user-service |
-| Nom Prénom 2 | cv-service |
-| Nom Prénom 3 | company-service |
-| Nom Prénom 4 | offer-service |
-| Nom Prénom 5 | application-service |
-| Nom Prénom 6 | interview-service |
+| Farouk Kbada | user-service |
+| Mohamed Aziz Maghraoui | cv-service |
+| Mohamed Aziz Sassi | company-service |
+| Mohamed Yassine Soukeh | offer-service |
+| Ines Ben Saad | application-service |
+| Feriel Kouka | interview-service |
 
 ## 3. Architecture
 
