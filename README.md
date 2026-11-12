@@ -18,8 +18,6 @@ Mini-projet du module **Architecture Web Distribuée (AWD)** – 2026/2027.
 5. Candidature et suivi du statut
 6. Planification des entretiens et feedback
 
-![Cas d'utilisation](Documentation/Diagrams/diagramme_use_case_global.png)
-
 ## 2. Équipe
 
 | Membre | Microservice |
@@ -32,8 +30,6 @@ Mini-projet du module **Architecture Web Distribuée (AWD)** – 2026/2027.
 | Nom Prénom 6 | interview-service |
 
 ## 3. Architecture
-
-![Architecture globale](Documentation/Diagrams/diagramme_global.png)
 
 ### Microservices
 
@@ -99,7 +95,3 @@ mvn spring-boot:run
 ```
 
 Documentation Swagger de chaque service : `http://localhost:<port>/swagger-ui.html`
-
-## 6. Gestion de projet
-
-Suivi des tâches : [lien du tableau Trello / GitHub Projects](#)
