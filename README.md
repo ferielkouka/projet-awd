@@ -35,12 +35,12 @@ Mini-projet du module **Architecture Web Distribuée (AWD)** – 2026/2027.
 
 | Microservice | Responsabilité | Port | Base |
 |---|---|---|---|
-| user-service | Profils des comptes liés à Keycloak | 8081 | MySQL `user_db` |
-| cv-service | CV de l'étudiant | 8082 | MySQL `cv_db` |
-| company-service | Fiches entreprises et recruteurs | 8083 | MySQL `company_db` |
-| offer-service | Publication et recherche d'offres | 8084 | MySQL `offer_db` |
-| application-service | Cycle de vie des candidatures | 8085 | MySQL `application_db` |
-| interview-service | Entretiens et feedback | 8086 | MySQL `interview_db` |
+| user-service | Profils des comptes liés à Keycloak | 8081 | PostgreSQL `user_db` |
+| cv-service | CV de l'étudiant | 8082 | PostgreSQL `cv_db` |
+| company-service | Fiches entreprises et recruteurs | 8083 | PostgreSQL `company_db` |
+| offer-service | Publication et recherche d'offres | 8084 | PostgreSQL `offer_db` |
+| application-service | Cycle de vie des candidatures | 8085 | PostgreSQL `application_db` |
+| interview-service | Entretiens et feedback | 8086 | PostgreSQL `interview_db` |
 
 ### Infrastructure
 
@@ -61,7 +61,7 @@ Mini-projet du module **Architecture Web Distribuée (AWD)** – 2026/2027.
 
 ### Stack technique
 
-Spring Boot 3 · Spring Cloud (Gateway, Eureka, Config, OpenFeign) · Resilience4j · MySQL · Keycloak · RabbitMQ · Swagger (springdoc-openapi) · Docker · Angular
+Spring Boot 3 · Spring Cloud (Gateway, Eureka, Config, OpenFeign) · Resilience4j · PostgreSQL · Keycloak · RabbitMQ · Swagger (springdoc-openapi) · Docker · Angular
 
 ## 4. Structure du dépôt
 
@@ -77,10 +77,10 @@ README.md
 
 ## 5. Lancement
 
-Prérequis : Java 17, Maven, MySQL, (Docker pour Keycloak et RabbitMQ).
+Prérequis : Java 17, Maven, PostgreSQL, (Docker pour Keycloak et RabbitMQ).
 
 Ordre de démarrage :
-1. MySQL
+1. PostgreSQL
 2. Config Server (8888)
 3. Eureka Server (8761)
 4. Keycloak (8180) et RabbitMQ (5672)
